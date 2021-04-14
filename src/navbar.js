@@ -1,3 +1,4 @@
+import { contact } from "./contact.js";
 import { home } from "./home.js";
 import { menu } from "./menu.js";
 
@@ -32,6 +33,11 @@ const navbar = (...navItems) => {
                 clearElement(main);
                 menu();
             });
+        } else if (item === "CONTACT") {
+            navItem.addEventListener("click", () => {
+                clearElement(main);
+                contact();
+            });
         }
         navLink.addEventListener("click", (e) => {
             toggleActive(e);
@@ -44,6 +50,8 @@ const navbar = (...navItems) => {
     content.appendChild(nav);
     const main = document.createElement("main");
     content.appendChild(main);
+
+    home();
 };
 
 export { navbar };
