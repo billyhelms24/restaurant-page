@@ -22,7 +22,7 @@ const menu = () => {
         "7.99",
         "Sour",
         "Imagine a blue raspberry warhead. Now imagine it's a beer. Drink that beer. You just drank our beer.",
-        "../assets/warheads-extreme-sour-blue.jpg"
+        "/assets/warheads-extreme-sour-blue.jpg"
     );
 
     new Product(
