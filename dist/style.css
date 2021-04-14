@@ -173,8 +173,85 @@ nav .active {
 
 .mission {
     width: 70vw;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 20px auto;
     font-size: 2.5vh;
     color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 728px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 1028px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #999;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-name {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.product-type {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.level {
+    margin-top: 10px;
+}
+
+.product-abv {
+    width: 40%;
+    float: left;
+    text-align: right;
+    color: rgb(177, 117, 5);
+}
+
+.product-price {
+    width: 40%;
+    float: right;
+    text-align: left;
+    color: rgb(141, 74, 74);
+}
+
+.product-description {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 0 10px;
+    height: 100px;
+    color: #777;
 }
