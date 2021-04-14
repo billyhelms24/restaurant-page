@@ -3,7 +3,7 @@ const home = () => {
     const home = document.createElement("div");
 
     const logo = document.createElement("img");
-    logo.src = "../assets/logo.png";
+    logo.src = "assets/logo.png";
     logo.classList.add("logo");
     home.appendChild(logo);
 

@@ -2,7 +2,7 @@ const contact = () => {
     const main = document.querySelector("main");
 
     const logo = document.createElement("img");
-    logo.src = "../assets/logo.png";
+    logo.src = "assets/logo.png";
     logo.classList.add("logo");
     main.appendChild(logo);
 

@@ -31,7 +31,7 @@ const menu = () => {
         "5.99",
         "Double/Imperial IPA",
         "Hazy IPA infused with pineapple express hemp terpenes. Fruity and dank.",
-        "../assets/og-haze.jpg"
+        "assets/og-haze.jpg"
     );
 
     new Product(
@@ -40,7 +40,7 @@ const menu = () => {
         "4.99",
         "Fruity",
         "This American wheat beer is brewed with real watermelon, for a flavor that’s surprisingly crisp, dry and refreshing—summer in a can.",
-        "../assets/hell-or-high-watermelon.jpg"
+        "assets/hell-or-high-watermelon.jpg"
     );
 
     new Product(
@@ -49,7 +49,7 @@ const menu = () => {
         "8.99",
         "Sour",
         "This kettle sour was fermented with 'pantfulls' of Guava, Boysenberry and Black Currant puree.",
-        "../assets/jammy-pants.jpg"
+        "assets/jammy-pants.jpg"
     );
 
     new Product(
@@ -58,7 +58,7 @@ const menu = () => {
         "5.99",
         "IPA",
         "IPA brewed with Pilsner Malts and Hopped with Citra and Sirachi Ace",
-        "../assets/tailpipin.jpg"
+        "assets/tailpipin.jpg"
     );
 
     new Product(
@@ -67,7 +67,7 @@ const menu = () => {
         "4.99",
         "Stout",
         "Our Peanut Butter Milk Stout is simply irresistible. It’s like dark chocolate Reese’s in a glass!",
-        "../assets/peanut-butter-milkstout.jpg"
+        "assets/peanut-butter-milkstout.jpg"
     );
 
     const grid = document.createElement("div");
